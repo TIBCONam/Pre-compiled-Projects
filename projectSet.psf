@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.tigris.subversion.subclipse.core.svnnature">
+<project reference="0.9.3,http://svn.tibco.com/qa/trunk/n2/users/naraut/Precompiled%20Projects/02_Validation%20Chk/Sample%203%20Indirect%20Ref/A,A"/>
+</provider>
+</psf>

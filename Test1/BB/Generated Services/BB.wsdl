@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:ns="http://www.tibco.com/bs3.0/_OTIhQCUxEeWjDe26CcwrvQ" xmlns:tibex="http://www.tibco.com/bs3.2/extensions" xmlns:ttns="http://example.com/a" xmlns:ttns1="http://example.com/b" xmlns:ttns2="http://example.com/aa" xmlns:ttns3="http://example.com/bb" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BB" targetNamespace="http://www.tibco.com/bs3.0/_OTIhQCUxEeWjDe26CcwrvQ" tibex:XPDL="BB.xpdl">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.tibco.com/bs3.0/_OTIhQCUxEeWjDe26CcwrvQ" targetNamespace="http://www.tibco.com/bs3.0/_OTIhQCUxEeWjDe26CcwrvQ"/>
+    <xsd:schema xmlns="http://example.com/a" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:tns1="http://example.com/a" targetNamespace="http://example.com/a">
+      <xsd:annotation>
+        <xsd:documentation>
+          <DocumentationElement BOMORIGIN="/A/Business Objects/A.bom"/>
+        </xsd:documentation>
+      </xsd:annotation>
+      <xsd:complexType name="Class1">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="attribute1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Class1Element" type="Class1"/>
+    </xsd:schema>
+    <xsd:schema xmlns="http://example.com/b" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:tns2="http://example.com/b" targetNamespace="http://example.com/b">
+      <xsd:annotation>
+        <xsd:documentation>
+          <DocumentationElement BOMORIGIN="/B/Business Objects/B.bom"/>
+        </xsd:documentation>
+      </xsd:annotation>
+      <xsd:import namespace="http://example.com/a"/>
+      <xsd:complexType name="ProjBClass">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="ref" type="ttns:Class1"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="attribute2">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ProjBClassElement" type="ProjBClass"/>
+    </xsd:schema>
+    <xsd:schema xmlns="http://example.com/aa" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:tns1="http://example.com/aa" xmlns:tns2="http://example.com/b" targetNamespace="http://example.com/aa">
+      <xsd:annotation>
+        <xsd:documentation>
+          <DocumentationElement BOMORIGIN="/AA/Business Objects/AA.bom"/>
+        </xsd:documentation>
+      </xsd:annotation>
+      <xsd:import namespace="http://example.com/b"/>
+      <xsd:complexType name="ClassA">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="attribute1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element maxOccurs="1" minOccurs="0" name="refClassB" type="tns2:ProjBClass"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ClassAElement" type="ClassA"/>
+    </xsd:schema>
+    <xsd:schema xmlns="http://example.com/bb" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:tns2="http://example.com/bb" targetNamespace="http://example.com/bb">
+      <xsd:annotation>
+        <xsd:documentation>
+          <DocumentationElement BOMORIGIN="/BB/Business Objects/BB.bom"/>
+        </xsd:documentation>
+      </xsd:annotation>
+      <xsd:import namespace="http://example.com/aa"/>
+      <xsd:complexType name="ClassB">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="refClassA" type="ttns2:ClassA"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ClassBElement" type="ClassB"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="BBProcess_CatchMessageEvent_INPUT">
+    <wsdl:part name="Parameter" type="ttns3:ClassB"/>
+  </wsdl:message>
+  <wsdl:portType name="BBProcess" tibex:FlowContainer="_OTIhQSUxEeWjDe26CcwrvQ">
+    <wsdl:documentation>
+      <DocumentationElement Documentation=""/>
+    </wsdl:documentation>
+    <wsdl:operation name="CatchMessageEvent">
+      <wsdl:input message="ns:BBProcess_CatchMessageEvent_INPUT" tibex:Event="_QMWssiUxEeWjDe26CcwrvQ"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

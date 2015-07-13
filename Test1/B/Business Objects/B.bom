@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PrimitiveTypeFacets="http:///schemas/PrimitiveTypeFacets/_8TmTUMtlEdy7K9XeCH7Hrw/0" xmlns:bomnotation="http://www.tibco.com/models/bomnotation" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/PrimitiveTypeFacets/_8TmTUMtlEdy7K9XeCH7Hrw/0 pathmap://BOM_TYPES/PrimitiveTypeFacets.profile.uml#_8TmTUstlEdy7K9XeCH7Hrw">
+  <uml:Model xmi:id="_x4tZ8CUuEeWjDe26CcwrvQ" name="com.example.b">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x4tZ8SUuEeWjDe26CcwrvQ" source="model.metadata">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x4tZ8iUuEeWjDe26CcwrvQ" key="author" value="naraut"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x4tZ8yUuEeWjDe26CcwrvQ" key="created" value="1436331855119"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x4tZ9CUuEeWjDe26CcwrvQ" key="version" value="4"/>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1FOZQCUuEeWjDe26CcwrvQ" name="ProjBClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U83UCUuEeWjDe26CcwrvQ" name="ref" aggregation="composite">
+        <type xmi:type="uml:Class" href="A.bom#_0CMO8CUuEeWjDe26CcwrvQ?com.example.a%3a%3aClass1?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U-sgiUuEeWjDe26CcwrvQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U-sgSUuEeWjDe26CcwrvQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4KXlQCUuEeWjDe26CcwrvQ" name="attribute2" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://BOM_TYPES/BomPrimitiveTypes.library.uml#_AGoC4HcNEdytQ9AWEvOuug?BomPrimitiveTypes%3a%3aText?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4KaokSUuEeWjDe26CcwrvQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4KaokCUuEeWjDe26CcwrvQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_x87yoCUuEeWjDe26CcwrvQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x88ZsCUuEeWjDe26CcwrvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://GLOBALDATA_PROFILES/BOMGlobalData.profile.uml#_-r7KEXyPEeCumvZ6xHSUiw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://GLOBALDATA_PROFILES/BOMGlobalData.profile.uml#_20kHsWs1EeC_hvle0zpSaA?BOM%20Global%20Data%20Profile?"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1FPAUCUuEeWjDe26CcwrvQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1FPAUSUuEeWjDe26CcwrvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://BOM_TYPES/PrimitiveTypeFacets.profile.uml#_8TmTUstlEdy7K9XeCH7Hrw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://BOM_TYPES/PrimitiveTypeFacets.profile.uml#_3A574HcJEdytQ9AWEvOuug?PrimitiveTypeFacets?"/>
+    </profileApplication>
+  </uml:Model>
+  <notation:Diagram xmi:id="_x4uBACUuEeWjDe26CcwrvQ" type="Business Object Model" element="_x4tZ8CUuEeWjDe26CcwrvQ?com.example.b?" name="B.bom" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_x7BHECUuEeWjDe26CcwrvQ" type="1007" element="_x4tZ8CUuEeWjDe26CcwrvQ?com.example.b?">
+      <children xmi:type="notation:Node" xmi:id="_x7BuICUuEeWjDe26CcwrvQ" type="4023">
+        <styles xmi:type="notation:FontStyle" xmi:id="_x7CVMCUuEeWjDe26CcwrvQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_x7CVMSUuEeWjDe26CcwrvQ" type="4024"/>
+      <children xmi:type="notation:Node" xmi:id="_x7C8QCUuEeWjDe26CcwrvQ" type="4025"/>
+      <children xmi:type="notation:Node" xmi:id="_x7DjUCUuEeWjDe26CcwrvQ" type="4026"/>
+      <children xmi:type="notation:Node" xmi:id="_x7EKYCUuEeWjDe26CcwrvQ" type="4027"/>
+      <children xmi:type="notation:Node" xmi:id="_x7EKYSUuEeWjDe26CcwrvQ" type="4028"/>
+      <children xmi:type="notation:Node" xmi:id="_x7ExcCUuEeWjDe26CcwrvQ" type="4029"/>
+      <children xmi:type="notation:Node" xmi:id="_x7ExcSUuEeWjDe26CcwrvQ" type="4030"/>
+      <children xmi:type="notation:Node" xmi:id="_x7ExciUuEeWjDe26CcwrvQ" type="5007">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_x7ExcyUuEeWjDe26CcwrvQ"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_x7ExdCUuEeWjDe26CcwrvQ" showTitle="true"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_x7ExdSUuEeWjDe26CcwrvQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_x7ExdiUuEeWjDe26CcwrvQ"/>
+      </children>
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_x7BHESUuEeWjDe26CcwrvQ" fontName="Segoe UI" fontHeight="10" fillColor="16316150" lineColor="37120"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_x7BHEiUuEeWjDe26CcwrvQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x7BHEyUuEeWjDe26CcwrvQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1FpQACUuEeWjDe26CcwrvQ" type="1002" element="_1FOZQCUuEeWjDe26CcwrvQ?com.example.b%3a%3aProjBClass?">
+      <children xmi:type="notation:Node" xmi:id="_1Fp3ECUuEeWjDe26CcwrvQ" type="4003"/>
+      <children xmi:type="notation:Node" xmi:id="_1FqeICUuEeWjDe26CcwrvQ" type="4004"/>
+      <children xmi:type="notation:Node" xmi:id="_1FqeISUuEeWjDe26CcwrvQ" type="4005"/>
+      <children xmi:type="notation:Node" xmi:id="_1FqeIiUuEeWjDe26CcwrvQ" type="5002">
+        <children xmi:type="notation:Node" xmi:id="_1VGBQCUuEeWjDe26CcwrvQ" type="2001" element="_1U83UCUuEeWjDe26CcwrvQ?com.example.b%3a%3aProjBClass%3a%3aref?">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1VGBQSUuEeWjDe26CcwrvQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_4KjygCUuEeWjDe26CcwrvQ" type="2001" element="_4KXlQCUuEeWjDe26CcwrvQ?com.example.b%3a%3aProjBClass%3a%3aattribute2?">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_4KjygSUuEeWjDe26CcwrvQ"/>
+        </children>
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_1FqeIyUuEeWjDe26CcwrvQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_1FqeJCUuEeWjDe26CcwrvQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_1FqeJSUuEeWjDe26CcwrvQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1FqeJiUuEeWjDe26CcwrvQ" type="5003">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_1FqeJyUuEeWjDe26CcwrvQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_1FqeKCUuEeWjDe26CcwrvQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_1FqeKSUuEeWjDe26CcwrvQ"/>
+      </children>
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_1FpQASUuEeWjDe26CcwrvQ" fontName="Segoe UI" fontHeight="10"/>
+      <styles xmi:type="bomnotation:ShapeGradientStyle" xmi:id="_1FpQAiUuEeWjDe26CcwrvQ" gradStartColor="6356832" gradEndColor="16777215"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1FpQAyUuEeWjDe26CcwrvQ" x="514" y="49"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_x4uBASUuEeWjDe26CcwrvQ"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_x4uBAiUuEeWjDe26CcwrvQ"/>
+  </notation:Diagram>
+  <PrimitiveTypeFacets:LabeledElement xmi:id="_1FQOcCUuEeWjDe26CcwrvQ" displayLabel="ProjB Class" base_NamedElement="_1FOZQCUuEeWjDe26CcwrvQ?com.example.b%3a%3aProjBClass?"/>
+  <PrimitiveTypeFacets:LabeledElement xmi:id="_1U-sgCUuEeWjDe26CcwrvQ" displayLabel="ref" base_NamedElement="_1U83UCUuEeWjDe26CcwrvQ?com.example.b%3a%3aProjBClass%3a%3aref?"/>
+  <PrimitiveTypeFacets:LabeledElement xmi:id="_4KaBgCUuEeWjDe26CcwrvQ" displayLabel="attribute2" base_NamedElement="_4KXlQCUuEeWjDe26CcwrvQ?com.example.b%3a%3aProjBClass%3a%3aattribute2?"/>
+</xmi:XMI>
