@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema
     xmlns="http://example.com/b" xmlns:tns4="http://example.com/b" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    xmlns:tns2="http://example.com/a" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/b">
+    xmlns:tns3="http://example.com/a" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/b">
   <xsd:annotation>
     <xsd:documentation>BOMORIGIN::/B/Business Objects/B.bom</xsd:documentation>
   </xsd:annotation>
@@ -9,7 +9,7 @@
   <xsd:complexType ecore:name="ProjBClass" id="_1FOZQCUuEeWjDe26CcwrvQ" name="ProjBClass">
     <xsd:sequence>
       <xsd:element ecore:name="ref" id="_1U83UCUuEeWjDe26CcwrvQ" maxOccurs="1" minOccurs="0"
-          name="ref" type="tns2:Class1"/>
+          name="ref" type="tns3:Class1"/>
       <xsd:element ecore:name="attribute2" id="_4KXlQCUuEeWjDe26CcwrvQ" maxOccurs="1"
           minOccurs="0" name="attribute2">
         <xsd:simpleType>
