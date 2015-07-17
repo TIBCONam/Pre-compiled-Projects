@@ -74,5 +74,6 @@
 		<nature>com.tibco.xpd.n2.bpel.bpelNature</nature>
 		<nature>com.tibco.xpd.wsdlgen.wsdlGenNature</nature>
 		<nature>com.tibco.xpd.forms.process.processNature</nature>
+		<nature>com.tibco.xpd.resources.preCompiledProjectNature</nature>
 	</natures>
 </projectDescription>
